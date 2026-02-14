@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kursus PUTRI CANTIK - SMKN 2 TAKALAR</title>
+  <style>
+    body{margin:0;font-family:Tahoma;background:#fff1f2;}
+    header{background:#e11d48;color:white;text-align:center;padding:25px;}
+    header h1{margin:0;font-size:32px;}
+    header p{margin:5px 0 0;font-size:16px;}
+
+    nav{background:#9f1239;text-align:center;padding:12px;}
+    nav a{color:white;text-decoration:none;margin:12px;font-weight:bold;}
+    nav a:hover{text-decoration:underline;}
+
+    .container{width:90%;margin:auto;padding:20px;}
+
+    .card{
+      background:white;
+      padding:20px;
+      margin:15px 0;
+      border-radius:12px;
+      box-shadow:0 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .card h2{color:#9f1239;}
+
+    .owner-box{
+      text-align:center;
+      padding:15px;
+      background:#ffe4e6;
+      border-radius:12px;
+    }
+
+    .owner-box h3{
+      margin:10px 0 5px;
+      color:#e11d48;
+    }
+
+    input,select{
+      width:100%;
+      padding:10px;
+      margin-top:8px;
+      border-radius:8px;
+      border:1px solid #ccc;
+    }
+
+    button{
+      background:#e11d48;
+      color:white;
+      border:none;
+      padding:10px;
+      width:100%;
+      border-radius:8px;
+      cursor:pointer;
+      font-weight:bold;
+      font-size:15px;
+    }
+
+    button:hover{background:#9f1239;}
+
+    footer{
+      background:#9f1239;
+      color:white;
+      text-align:center;
+      padding:15px;
+      margin-top:20px;
+    }
+
+    .highlight{
+      color:#e11d48;
+      font-weight:bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Kursus PUTRI CANTIK</h1>
+  <p>Belajar Biologi dengan Mudah & Menyenangkan</p>
+  <p><span class="highlight">Lokasi:</span> SMKN 2 TAKALAR</p>
+</header>
+
+<nav>
+  <a href="#tentang">Tentang</a>
+  <a href="#owner">Owner</a>
+  <a href="#materi">Materi</a>
+  <a href="#jadwal">Jadwal</a>
+  <a href="#daftar">Pendaftaran</a>
+  <a href="#kontak">Kontak</a>
+</nav>
+
+<div class="container">
+
+  <!-- Tentang Kursus -->
+  <div class="card" id="tentang">
+    <h2>Tentang Kursus</h2>
+    <p>
+      Kursus <b>PUTRI CANTIK</b> adalah tempat belajar Biologi khusus untuk siswa SMP & SMA.
+      Kursus ini berada di lingkungan <b>SMKN 2 TAKALAR</b> dengan metode pembelajaran yang mudah dipahami.
+    </p>
+  </div>
+
+  <!-- Owner -->
+  <div class="card" id="owner">
+    <h2>Owner Kursus</h2>
+    <div class="owner-box">
+      <h3>PUTRI CANTIK</h3>
+      <p><b>Owner & Pengajar</b></p>
+      <p>Profesional, ramah, dan siap membantu siswa memahami Biologi dengan cepat.</p>
+    </div>
+  </div>
+
+  <!-- Materi -->
+  <div class="card" id="materi">
+    <h2>Materi Utama</h2>
+    <ul>
+      <li>Sistem Organ Manusia</li>
+      <li>Sel dan Jaringan</li>
+      <li>Ekosistem dan Lingkungan</li>
+      <li>Genetika dan Pewarisan Sifat</li>
+      <li>Virus, Bakteri, dan Penyakit</li>
+      <li>Latihan Soal + Pembahasan</li>
+    </ul>
+  </div>
+
+  <!-- Jadwal -->
+  <div class="card" id="jadwal">
+    <h2>Jadwal Belajar</h2>
+    <p>📌 Selasa & Kamis : 15.00 - 17.00</p>
+    <p>📌 Sabtu : 10.00 - 12.00</p>
+    <p><b>Tempat:</b> Ruang Belajar SMKN 2 TAKALAR</p>
+  </div>
+
+  <!-- Form Pendaftaran -->
+  <div class="card" id="daftar">
+    <h2>Form Pendaftaran Kursus</h2>
+    <form>
+      <label>Nama Lengkap:</label>
+      <input type="text" placeholder="Masukkan nama..." required>
+
+      <label>Pilih Tingkatan:</label>
+      <select required>
+        <option>SMP</option>
+        <option>SMA</option>
+      </select>
+
+      <label>Kelas:</label>
+      <select required>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+      </select>
+
+      <label>No HP / WhatsApp:</label>
+      <input type="number" placeholder="Contoh: 08123456789" required>
+
+      <label>Pilih Program:</label>
+      <select required>
+        <option>Reguler</option>
+        <option>Privat</option>
+        <option>Intensif Ujian</option>
+      </select
